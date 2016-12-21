@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import MOPhoneNumberInputViewController
+import UXPhoneNumberInput
 
 class Tests: XCTestCase {
     

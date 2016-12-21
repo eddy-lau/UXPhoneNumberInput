@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import MOPhoneNumberInputViewController
+import UXPhoneNumberInput
 
 class ViewController: UIViewController {
     
