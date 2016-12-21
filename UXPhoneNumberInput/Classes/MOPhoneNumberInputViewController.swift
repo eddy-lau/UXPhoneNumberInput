@@ -306,7 +306,7 @@ extension MOPhoneNumberInputViewController {
         
         let bundle = Bundle(for:self)
         
-        guard let resourceBundleURL = bundle.url(forResource: "MOPhoneNumberInputViewController", withExtension: "bundle") else {
+        guard let resourceBundleURL = bundle.url(forResource: "UXPhoneNumberInput", withExtension: "bundle") else {
             fatalError("Couldn't instantiate MOPhoneNumberInputViewController")
         }
         
