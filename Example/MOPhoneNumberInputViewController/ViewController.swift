@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import MOPhoneNumberInputViewController
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var phoneNumberLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,5 +23,20 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func didTapButton() {
+        
+        let phoneInputVC = MOPhoneNumberInputViewController.instantiate()
+        
+        phoneInputVC.showDoneButton { phoneNumber in
+            
+            self.phoneNumberLabel.text = phoneNumber
+            self.dismiss(animated: true, completion: nil)
+            
+        }
+        
+        let navController = UINavigationController(rootViewController: phoneInputVC)
+        present(navController, animated: true, completion: nil)
+        
+    }
 }
 

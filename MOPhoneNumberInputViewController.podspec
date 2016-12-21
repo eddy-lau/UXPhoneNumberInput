@@ -28,10 +28,13 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/MOPhoneNumberInputViewController.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '8.3'
 
   s.source_files = 'MOPhoneNumberInputViewController/Classes/**/*'
-  
+  s.resource_bundles = {
+    'MOPhoneNumberInputViewController' => ["MOPhoneNumberInputViewController/Resources/**/*.{storyboard,png,xcassets}"]
+  }
+
   # s.resource_bundles = {
   #   'MOPhoneNumberInputViewController' => ['MOPhoneNumberInputViewController/Assets/*.png']
   # }
@@ -39,4 +42,7 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'PhoneNumberKit', '~> 1.2'
+  s.dependency 'AJCountryPicker2', '~> 2.0'
+
 end
