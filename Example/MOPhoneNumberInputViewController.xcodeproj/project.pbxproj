@@ -112,7 +112,7 @@
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for MOPhoneNumberInputViewController";
-			path = MOPhoneNumberInputViewController;
+			path = UXPhoneNumberInput;
 			sourceTree = "<group>";
 		};
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
@@ -496,7 +496,7 @@
 			baseConfigurationReference = 1180AE840EB7A06DB1B3A99F /* Pods-MOPhoneNumberInputViewController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = MOPhoneNumberInputViewController/Info.plist;
+				INFOPLIST_FILE = UXPhoneNumberInput/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -510,7 +510,7 @@
 			baseConfigurationReference = 7E97B9B23D72A382B99A73DA /* Pods-MOPhoneNumberInputViewController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = MOPhoneNumberInputViewController/Info.plist;
+				INFOPLIST_FILE = UXPhoneNumberInput/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
