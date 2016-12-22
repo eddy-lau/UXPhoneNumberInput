@@ -15,23 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "MOPhoneNumberInputViewController_Example.app"
-               BlueprintName = "MOPhoneNumberInputViewController_Example"
-               ReferencedContainer = "container:MOPhoneNumberInputViewController.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "MOPhoneNumberInputViewController_Tests.xctest"
-               BlueprintName = "MOPhoneNumberInputViewController_Tests"
-               ReferencedContainer = "container:MOPhoneNumberInputViewController.xcodeproj">
+               BuildableName = "UXPhoneNumberInput_Example.app"
+               BlueprintName = "UXPhoneNumberInput_Example"
+               ReferencedContainer = "container:UXPhoneNumberInput.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,24 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "MOPhoneNumberInputViewController_Tests.xctest"
-               BlueprintName = "MOPhoneNumberInputViewController_Tests"
-               ReferencedContainer = "container:MOPhoneNumberInputViewController.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "MOPhoneNumberInputViewController_Example.app"
-            BlueprintName = "MOPhoneNumberInputViewController_Example"
-            ReferencedContainer = "container:MOPhoneNumberInputViewController.xcodeproj">
+            BuildableName = "UXPhoneNumberInput_Example.app"
+            BlueprintName = "UXPhoneNumberInput_Example"
+            ReferencedContainer = "container:UXPhoneNumberInput.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -80,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "MOPhoneNumberInputViewController_Example.app"
-            BlueprintName = "MOPhoneNumberInputViewController_Example"
-            ReferencedContainer = "container:MOPhoneNumberInputViewController.xcodeproj">
+            BuildableName = "UXPhoneNumberInput_Example.app"
+            BlueprintName = "UXPhoneNumberInput_Example"
+            ReferencedContainer = "container:UXPhoneNumberInput.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -99,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "MOPhoneNumberInputViewController_Example.app"
-            BlueprintName = "MOPhoneNumberInputViewController_Example"
-            ReferencedContainer = "container:MOPhoneNumberInputViewController.xcodeproj">
+            BuildableName = "UXPhoneNumberInput_Example.app"
+            BlueprintName = "UXPhoneNumberInput_Example"
+            ReferencedContainer = "container:UXPhoneNumberInput.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,11 +1,5 @@
 use_frameworks!
 
-target 'MOPhoneNumberInputViewController_Example' do
+target 'UXPhoneNumberInput_Example' do
   pod 'UXPhoneNumberInput', :path => '../'
-
-  target 'MOPhoneNumberInputViewController_Tests' do
-    inherit! :search_paths
-
-
-  end
 end

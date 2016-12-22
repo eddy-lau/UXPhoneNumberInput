@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4EC4BA744839E99E88B9369B /* Pods_MOPhoneNumberInputViewController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72207D38E9F7B7DCA4F9B901 /* Pods_MOPhoneNumberInputViewController_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -15,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		AC74AA15D23673D10A0AE7E8 /* Pods_MOPhoneNumberInputViewController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289313B2311AD72762B570AA /* Pods_MOPhoneNumberInputViewController_Example.framework */; };
+		C71139F7746E0731DB52B188 /* Pods_UXPhoneNumberInput_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1781294CBF4229162E0B1004 /* Pods_UXPhoneNumberInput_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,24 +29,25 @@
 
 /* Begin PBXFileReference section */
 		1180AE840EB7A06DB1B3A99F /* Pods-MOPhoneNumberInputViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MOPhoneNumberInputViewController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MOPhoneNumberInputViewController_Example/Pods-MOPhoneNumberInputViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1781294CBF4229162E0B1004 /* Pods_UXPhoneNumberInput_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UXPhoneNumberInput_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		289313B2311AD72762B570AA /* Pods_MOPhoneNumberInputViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MOPhoneNumberInputViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C47F61E1E0B4A8B001E25D6 /* UXPhoneNumberInput.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UXPhoneNumberInput.podspec; sourceTree = "<group>"; };
 		4082964008A19D881A411C40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* MOPhoneNumberInputViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOPhoneNumberInputViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD01AFB9204008FA782 /* UXPhoneNumberInput_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UXPhoneNumberInput_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* MOPhoneNumberInputViewController_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOPhoneNumberInputViewController_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACE51AFB9204008FA782 /* UXPhoneNumberInput_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UXPhoneNumberInput_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		72207D38E9F7B7DCA4F9B901 /* Pods_MOPhoneNumberInputViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MOPhoneNumberInputViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E97B9B23D72A382B99A73DA /* Pods-MOPhoneNumberInputViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MOPhoneNumberInputViewController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MOPhoneNumberInputViewController_Example/Pods-MOPhoneNumberInputViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		92A56213A14D82135795C76F /* Pods-MOPhoneNumberInputViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MOPhoneNumberInputViewController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MOPhoneNumberInputViewController_Tests/Pods-MOPhoneNumberInputViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E5FAEF6C0175F66A8F8A493 /* Pods-UXPhoneNumberInput_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UXPhoneNumberInput_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-UXPhoneNumberInput_Example/Pods-UXPhoneNumberInput_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9DC2C0C4405766E114627A06 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FBA52C51AE5FE4709D538061 /* Pods-MOPhoneNumberInputViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MOPhoneNumberInputViewController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MOPhoneNumberInputViewController_Tests/Pods-MOPhoneNumberInputViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9E4FEED01B3B620402C3004B /* Pods-UXPhoneNumberInput_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UXPhoneNumberInput_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UXPhoneNumberInput_Example/Pods-UXPhoneNumberInput_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC74AA15D23673D10A0AE7E8 /* Pods_MOPhoneNumberInputViewController_Example.framework in Frameworks */,
+				C71139F7746E0731DB52B188 /* Pods_UXPhoneNumberInput_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +64,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EC4BA744839E99E88B9369B /* Pods_MOPhoneNumberInputViewController_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,8 +75,8 @@
 			children = (
 				1180AE840EB7A06DB1B3A99F /* Pods-MOPhoneNumberInputViewController_Example.debug.xcconfig */,
 				7E97B9B23D72A382B99A73DA /* Pods-MOPhoneNumberInputViewController_Example.release.xcconfig */,
-				92A56213A14D82135795C76F /* Pods-MOPhoneNumberInputViewController_Tests.debug.xcconfig */,
-				FBA52C51AE5FE4709D538061 /* Pods-MOPhoneNumberInputViewController_Tests.release.xcconfig */,
+				9E4FEED01B3B620402C3004B /* Pods-UXPhoneNumberInput_Example.debug.xcconfig */,
+				8E5FAEF6C0175F66A8F8A493 /* Pods-UXPhoneNumberInput_Example.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -95,8 +96,8 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* MOPhoneNumberInputViewController_Example.app */,
-				607FACE51AFB9204008FA782 /* MOPhoneNumberInputViewController_Tests.xctest */,
+				607FACD01AFB9204008FA782 /* UXPhoneNumberInput_Example.app */,
+				607FACE51AFB9204008FA782 /* UXPhoneNumberInput_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,6 +156,7 @@
 			children = (
 				289313B2311AD72762B570AA /* Pods_MOPhoneNumberInputViewController_Example.framework */,
 				72207D38E9F7B7DCA4F9B901 /* Pods_MOPhoneNumberInputViewController_Tests.framework */,
+				1781294CBF4229162E0B1004 /* Pods_UXPhoneNumberInput_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -162,9 +164,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* MOPhoneNumberInputViewController_Example */ = {
+		607FACCF1AFB9204008FA782 /* UXPhoneNumberInput_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MOPhoneNumberInputViewController_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "UXPhoneNumberInput_Example" */;
 			buildPhases = (
 				E9A8088F9FE1F0CD6A38254C /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
@@ -177,30 +179,27 @@
 			);
 			dependencies = (
 			);
-			name = MOPhoneNumberInputViewController_Example;
+			name = UXPhoneNumberInput_Example;
 			productName = MOPhoneNumberInputViewController;
-			productReference = 607FACD01AFB9204008FA782 /* MOPhoneNumberInputViewController_Example.app */;
+			productReference = 607FACD01AFB9204008FA782 /* UXPhoneNumberInput_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* MOPhoneNumberInputViewController_Tests */ = {
+		607FACE41AFB9204008FA782 /* UXPhoneNumberInput_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MOPhoneNumberInputViewController_Tests" */;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "UXPhoneNumberInput_Tests" */;
 			buildPhases = (
-				805102CE2B53D84F6686F18C /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				4A2B12199D4F7F0BD910FD5E /* [CP] Embed Pods Frameworks */,
-				493AE6B3E4C6AE2EFACB0941 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
 			);
-			name = MOPhoneNumberInputViewController_Tests;
+			name = UXPhoneNumberInput_Tests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* MOPhoneNumberInputViewController_Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* UXPhoneNumberInput_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -224,7 +223,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "MOPhoneNumberInputViewController" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "UXPhoneNumberInput" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -237,8 +236,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* MOPhoneNumberInputViewController_Example */,
-				607FACE41AFB9204008FA782 /* MOPhoneNumberInputViewController_Tests */,
+				607FACCF1AFB9204008FA782 /* UXPhoneNumberInput_Example */,
+				607FACE41AFB9204008FA782 /* UXPhoneNumberInput_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -264,36 +263,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		493AE6B3E4C6AE2EFACB0941 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MOPhoneNumberInputViewController_Tests/Pods-MOPhoneNumberInputViewController_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4A2B12199D4F7F0BD910FD5E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MOPhoneNumberInputViewController_Tests/Pods-MOPhoneNumberInputViewController_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6E1B02FDB98F9D5ABF69B29C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -306,22 +275,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MOPhoneNumberInputViewController_Example/Pods-MOPhoneNumberInputViewController_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		805102CE2B53D84F6686F18C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UXPhoneNumberInput_Example/Pods-UXPhoneNumberInput_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B4D9A561DD6D5140A14BF34F /* [CP] Copy Pods Resources */ = {
@@ -336,7 +290,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MOPhoneNumberInputViewController_Example/Pods-MOPhoneNumberInputViewController_Example-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UXPhoneNumberInput_Example/Pods-UXPhoneNumberInput_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E9A8088F9FE1F0CD6A38254C /* [CP] Check Pods Manifest.lock */ = {
@@ -379,7 +333,7 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* MOPhoneNumberInputViewController_Example */;
+			target = 607FACCF1AFB9204008FA782 /* UXPhoneNumberInput_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -493,7 +447,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1180AE840EB7A06DB1B3A99F /* Pods-MOPhoneNumberInputViewController_Example.debug.xcconfig */;
+			baseConfigurationReference = 9E4FEED01B3B620402C3004B /* Pods-UXPhoneNumberInput_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UXPhoneNumberInput/Info.plist;
@@ -507,7 +461,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E97B9B23D72A382B99A73DA /* Pods-MOPhoneNumberInputViewController_Example.release.xcconfig */;
+			baseConfigurationReference = 8E5FAEF6C0175F66A8F8A493 /* Pods-UXPhoneNumberInput_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UXPhoneNumberInput/Info.plist;
@@ -521,7 +475,6 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92A56213A14D82135795C76F /* Pods-MOPhoneNumberInputViewController_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -541,7 +494,6 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBA52C51AE5FE4709D538061 /* Pods-MOPhoneNumberInputViewController_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -558,7 +510,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "MOPhoneNumberInputViewController" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "UXPhoneNumberInput" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
@@ -567,7 +519,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MOPhoneNumberInputViewController_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "UXPhoneNumberInput_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
@@ -576,7 +528,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MOPhoneNumberInputViewController_Tests" */ = {
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "UXPhoneNumberInput_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
