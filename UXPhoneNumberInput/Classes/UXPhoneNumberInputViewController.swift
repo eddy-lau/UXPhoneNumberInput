@@ -16,7 +16,7 @@ public class UXPhoneNumberInputViewController: UITableViewController {
     
     // MARK: - Public functions
     
-    public func showDoneButton(withAction action: @escaping (_ phoneNumber:String)->Void) {
+    public func done(withAction action: @escaping (_ phoneNumber:String)->Void) {
         doneButtonAction = action
     }
     

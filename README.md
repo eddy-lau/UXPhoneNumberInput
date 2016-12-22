@@ -9,7 +9,25 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Demo
+
+[![Screenshot](./Screenshot.gif)
+
+## Usage
+
+```swift
+  let phoneInputVC = UXPhoneNumberInputViewController.instantiate()
+
+  phoneInputVC.done { phoneNumber in
+
+      print(phoneNumber)
+
+  }
+```
+
 ## Requirements
+
+Xcode 8, Swift 3, iOS 8
 
 ## Installation
 

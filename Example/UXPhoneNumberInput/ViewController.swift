@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         
         let phoneInputVC = UXPhoneNumberInputViewController.instantiate()
         
-        phoneInputVC.showDoneButton { phoneNumber in
+        phoneInputVC.done { phoneNumber in
             
             self.phoneNumberLabel.text = phoneNumber
             self.dismiss(animated: true, completion: nil)
