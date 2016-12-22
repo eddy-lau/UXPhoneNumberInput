@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  MOPhoneNumberInputViewController
+//  UXPhoneNumberInput
 //
 //  Created by Eddie Lau on 12/15/2016.
 //  Copyright (c) 2016 Eddie Lau. All rights reserved.
@@ -25,7 +25,7 @@ class ViewController: UIViewController {
 
     @IBAction func didTapButton() {
         
-        let phoneInputVC = MOPhoneNumberInputViewController.instantiate()
+        let phoneInputVC = UXPhoneNumberInputViewController.instantiate()
         
         phoneInputVC.showDoneButton { phoneNumber in
             

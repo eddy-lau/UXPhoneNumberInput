@@ -1,5 +1,5 @@
 //
-//  MOPhoneNumberInputViewController.swift
+//  UXPhoneNumberInputViewController.swift
 //  Pods
 //
 //  Created by Eddie Hiu-Fung Lau on 15/12/2016.
@@ -10,7 +10,7 @@ import UIKit
 import PhoneNumberKit
 import AJCountryPicker2
 
-public class MOPhoneNumberInputViewController: UITableViewController {
+public class UXPhoneNumberInputViewController: UITableViewController {
 
     // MARK: - Public variables
     
@@ -86,7 +86,7 @@ public class MOPhoneNumberInputViewController: UITableViewController {
     
     fileprivate lazy var doneButtonItem: UIBarButtonItem = {
         
-        let item = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(MOPhoneNumberInputViewController.didTapDoneButton))
+        let item = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(UXPhoneNumberInputViewController.didTapDoneButton))
         return item
         
     }()
@@ -151,7 +151,7 @@ public class MOPhoneNumberInputViewController: UITableViewController {
 }
 
 // MARK: - private functions
-extension MOPhoneNumberInputViewController {
+extension UXPhoneNumberInputViewController {
     
     func didTapDoneButton() {
         
@@ -181,7 +181,7 @@ extension MOPhoneNumberInputViewController {
 }
 
 // MARK: UITableViewDelegate
-extension MOPhoneNumberInputViewController {
+extension UXPhoneNumberInputViewController {
     
     public override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
@@ -211,7 +211,7 @@ extension MOPhoneNumberInputViewController {
     
 }
 
-extension MOPhoneNumberInputViewController : UITextFieldDelegate {
+extension UXPhoneNumberInputViewController : UITextFieldDelegate {
     
     public func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         
@@ -300,23 +300,23 @@ extension MOPhoneNumberInputViewController : UITextFieldDelegate {
     
 }
 
-extension MOPhoneNumberInputViewController {
+extension UXPhoneNumberInputViewController {
     
-    public static func instantiate() -> MOPhoneNumberInputViewController {
+    public static func instantiate() -> UXPhoneNumberInputViewController {
         
         let bundle = Bundle(for:self)
         
         guard let resourceBundleURL = bundle.url(forResource: "UXPhoneNumberInput", withExtension: "bundle") else {
-            fatalError("Couldn't instantiate MOPhoneNumberInputViewController")
+            fatalError("Couldn't instantiate UXPhoneNumberInputViewController")
         }
         
         guard let resourceBundle = Bundle(url: resourceBundleURL) else {
-            fatalError("Couldn't instantiate MOPhoneNumberInputViewController")
+            fatalError("Couldn't instantiate UXPhoneNumberInputViewController")
         }
         
-        let loginStoryboard = UIStoryboard(name: "MOPhoneNumberInputViewController", bundle: resourceBundle)
-        guard let viewController = loginStoryboard.instantiateInitialViewController() as? MOPhoneNumberInputViewController else {
-            fatalError("Couldn't instantiate MOPhoneNumberInputViewController")
+        let loginStoryboard = UIStoryboard(name: "UXPhoneNumberInputViewController", bundle: resourceBundle)
+        guard let viewController = loginStoryboard.instantiateInitialViewController() as? UXPhoneNumberInputViewController else {
+            fatalError("Couldn't instantiate UXPhoneNumberInputViewController")
         }
         
         return viewController

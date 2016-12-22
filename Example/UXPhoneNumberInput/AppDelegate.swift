@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  MOPhoneNumberInputViewController
+//  UXPhoneNumberInputViewController
 //
 //  Created by Eddie Lau on 12/15/2016.
 //  Copyright (c) 2016 Eddie Lau. All rights reserved.
