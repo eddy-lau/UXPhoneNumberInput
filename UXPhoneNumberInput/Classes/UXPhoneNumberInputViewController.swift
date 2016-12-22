@@ -76,7 +76,7 @@ public class UXPhoneNumberInputViewController: UITableViewController {
             !countryCodeText.isEmpty,
             let phoneNumberText = phoneNumberField.text,
             !phoneNumberText.isEmpty,
-            let doneButtonAction = doneButtonAction
+            let _ = doneButtonAction
         else {
             return false
         }
@@ -169,7 +169,7 @@ extension UXPhoneNumberInputViewController {
             }))
             present(alertController, animated: true, completion: nil)
             
-        } catch let e {
+        } catch _ {
             
         }
         
@@ -192,7 +192,7 @@ extension UXPhoneNumberInputViewController {
                 
                 if let countryCode = self.phoneNumberKit.countryCode(for: code) {
                     self.countryCodeField.text = "+\(countryCode)"
-                    self.navigationController?.popViewController(animated: true)
+                    _ = self.navigationController?.popViewController(animated: true)
                 }
             }
 
@@ -238,11 +238,11 @@ extension UXPhoneNumberInputViewController : UITextFieldDelegate {
                 return false
             }
             
-            guard var text = textField.text as? NSString else {
+            guard let text = textField.text else {
                 return false
             }
             
-            var countryCode = text.replacingCharacters(in: range, with: string)
+            var countryCode = (text as NSString).replacingCharacters(in: range, with: string)
             
             if countryCode == "+" {
                 
@@ -268,7 +268,7 @@ extension UXPhoneNumberInputViewController : UITextFieldDelegate {
                 
         } else if textField == phoneNumberField {
             
-            guard var text = textField.text as? NSString else {
+            guard let text = textField.text else {
                 return false
             }
             
@@ -283,7 +283,7 @@ extension UXPhoneNumberInputViewController : UITextFieldDelegate {
                 
             }
             
-            var rawPhoneNumber = text.replacingCharacters(in: range, with: string)
+            let rawPhoneNumber = (text as NSString).replacingCharacters(in: range, with: string)
             
             let selectedRegion = selectedRegionCode ?? PhoneNumberKit.defaultRegionCode()
             let formatter = PartialFormatter(phoneNumberKit: phoneNumberKit, defaultRegion: selectedRegion, withPrefix:false)
@@ -321,6 +321,5 @@ extension UXPhoneNumberInputViewController {
         
         return viewController
     }
-    
     
 }

@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UXPhoneNumberInput'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of UXPhoneNumberInput.'
+  s.version          = '1.0.0'
+  s.summary          = 'UXPhoneNumberInput is a view controller for inputting phone number'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+UXPhoneNumberInput is a view controller for inputting phone number. It support country code selection and detection, also can format the phone number according to the selected country.
+This view controller is useful for app that requires user's phone number for login, SMS verification, etc.
                        DESC
 
   s.homepage         = 'https://github.com/eddy-lau/UXPhoneNumberInput'
